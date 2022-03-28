@@ -11,7 +11,6 @@
   inputs.src-pronimgress-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-pronimgress-v0_1_0.owner = "bichanna";
   inputs.src-pronimgress-v0_1_0.repo  = "pronimgress";
-  inputs.src-pronimgress-v0_1_0.dir   = "";
   inputs.src-pronimgress-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

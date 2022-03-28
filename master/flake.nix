@@ -11,7 +11,6 @@
   inputs.src-pronimgress-master.ref   = "refs/heads/master";
   inputs.src-pronimgress-master.owner = "bichanna";
   inputs.src-pronimgress-master.repo  = "pronimgress";
-  inputs.src-pronimgress-master.dir   = "";
   inputs.src-pronimgress-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
